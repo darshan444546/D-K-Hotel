@@ -1,0 +1,167 @@
+#heading-secsion
+{
+	padding: 10px;
+	padding-left: 150px;
+	border: 1px  solid ;
+	
+}
+#head-menu-list
+{
+	list-style-type: none;
+	display: flex;
+	padding-left: 195px;
+}
+#head-menu-list li 
+{
+	padding-left: 20px;
+
+}
+#book-NOW
+{
+	
+	background-color:#d4af37 ;
+	width: 100%;
+	height: 50px;
+	border-radius: 10px;
+	font-size: 20px;
+	color: black;
+}
+#hotel-services
+{
+	display: flex;
+	list-style-type: none;
+}
+#hotel-services-2
+{
+	padding-top: 120px;
+	display: flex;
+	list-style-type: none;
+}
+#standard-rooms
+{
+	display: flex;
+}
+#footer-icons
+{
+	display: flex;
+}
+#footer-div
+{
+	padding: 50px;
+
+	background-color: #241e09;
+	color: white;
+}
+#standard-rooms-main-div
+{
+	padding-left: 200px;
+	padding-top: 100px;
+}
+footer
+{
+	padding-top: 100px;
+}
+
+#rows-of-rooms
+	{
+		position: relative;
+		left: 190px;		
+		padding: 5px;
+	}
+/*.register-form
+{
+	border: 1px solid black;
+	border-radius: 10px;
+	width: 25%;
+	
+	padding: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: grey;
+	color: white;
+}*/
+#submit-button
+{
+	width: 100%;
+	font-size: 15px;
+	border-radius: 10px;
+	background-color: skyblue;
+}
+#Payment
+{
+	width: 30%;
+}
+
+/*form css*/
+#form_div
+	{
+		
+		background-color: darkcyan;
+		color: white;
+		width: 80%;
+		height: auto;
+		padding: 50px;
+
+				display: flex;
+  		justify-content: center;
+ 		align-self: center;
+
+	}
+	#book
+	{
+		width: 100%;
+		display: flex;
+  		justify-content: center;
+ 		align-self: center;
+		padding-top: 50px;
+
+
+
+	}
+	#book_button
+	{
+		width: 20%;
+		font-size: 20px;
+
+		background-color: lightyellow;
+	
+	}
+	#register_form
+	{
+		width: 50%;
+	}
+@media only screen and (max-width: 800px)
+{
+	#heading-secsion
+	{
+		padding-left: unset;
+	}
+	#head-menu-list
+	{
+		padding-left: unset;
+		display: block;
+	}
+	#standard-rooms-main-div
+	{
+		padding-left: unset;
+	}
+	#footer-div
+	{
+		padding-left: unset;
+	}
+
+	#rows-of-rooms
+	{
+		position: absolute;
+	}
+			#form_div
+		{
+		
+			width: 100%;
+		}
+		#book_button
+		{
+			width: 50%;
+		}	
+}
